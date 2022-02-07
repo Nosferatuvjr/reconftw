@@ -74,3 +74,20 @@ Então, o que está esperando? Bora! Bora! Bora! :boom:
 - [Patrocinadores ❤️](#sponsors-️)
 - [Agradecimentos :pray:](#thanks-pray)
 - [Isenção de responsabilidade](#disclaimer)
+
+---
+ 
+# 💿 Instalação:
+ 
+## a) No seu PC/VPS/VM
+ 
+> Você pode conferir a nossa wiki para o guia de instalação [Guia de Instalação](https://github.com/six2dez/reconftw/wiki/0.-Installation-Guide) :book:
+ 
+- Requer [Golang](https://golang.org/dl/) > **1.15.0+** instalado e caminhos definidos corretamente (**$GOPATH**, **$GOROOT**)
+
+```bash
+git clone https://github.com/six2dez/reconftw
+cd reconftw/
+./install.sh
+./reconftw.sh -d target.com -r
+```
